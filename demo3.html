@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title> Input examples</title>
+    </head>
+    <body>
+        <form action="Sample">
+            <input type="text"  placeholder="Name" required> <br>
+            <input type="number" placeholder="Age" min="1" max="120" required> <br>
+            
+            Designation      
+            <Select name="Designation">
+                <option>Architect</option>
+                <option>Application Manager</option>
+            </Select>
+            <br>
+            <input type="password" placeholder="Password"  pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+            <textarea placeholder="Address"></textarea>
+            <button type="reset">Clear all fields </button>
+            <button type="submit"> Register </button>
+        </form>
+    </body>
+</html>
